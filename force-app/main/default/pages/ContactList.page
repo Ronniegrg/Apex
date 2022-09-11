@@ -17,7 +17,8 @@
             <table style="width: 100%">
                 <tr>
                     <td>
-                        <!-- Page X of Y -->
+                        Page:
+                        <apex:outputText value="{!PageNumber} of {!CEILING(ResultSize / PageSize)}" />
                     </td>
                     <td align="center">
                         <!-- Previous page -->
