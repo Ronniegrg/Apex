@@ -1,0 +1,5 @@
+<apex:page>
+    <flow:interview>
+        <apex:param name="varDemoName" value="My Demo Account" />
+    </flow:interview>
+</apex:page>

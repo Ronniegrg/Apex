@@ -1,0 +1,8 @@
+<apex:page controller="ContactController" tabstyle="Contact">
+    <apex:form>
+        <apex:pageBlock>
+            Hello
+            <apex:inputField value="{!contact.name}" /> !
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

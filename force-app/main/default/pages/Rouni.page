@@ -1,0 +1,5 @@
+<apex:page >
+    <apex:stylesheet value="{!$Resource.AppStylesheet" />
+    <apex:outputText value="This test is styled directly." />
+    <apex:outputText value="This text is styled via a stylesheet class." />
+</apex:page>

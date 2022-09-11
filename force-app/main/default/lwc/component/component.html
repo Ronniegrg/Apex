@@ -1,0 +1,15 @@
+<!-- 
+    Example1: Component.HTML file
+    Component to show the message 'Welcome to the Salesforce' on the click of the button named as 'Click me'
+ -->
+
+<template>
+    <div class="slds-m-top_small slds-m-bottom_medium">
+        <h2 class="slds-text-heading_small slds-m-bottom_small"></h2>
+        <!-- Brand variant: Identifies the primary action in a group of buttons and the button value is 'Click me' -->
+        <lightning-button variant="brand" label="Click me" title="Primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+    </div>    
+    <div class="slds-m-vertical_medium">
+        <p>{clickedButtonLabel}</p>
+    </div>
+</template>

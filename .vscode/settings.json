@@ -1,0 +1,17 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  "salesforcedx-vscode-core.show-cli-success-msg": false,
+  "grammarly.selectors": [
+    {
+      "language": "apex",
+      "scheme": "file",
+      "pattern": "force-app/main/default/classes/CreateContact.cls"
+    }
+  ],
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 18
+}
